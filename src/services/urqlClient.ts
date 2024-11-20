@@ -7,7 +7,7 @@ const client = new Client({
   // url: "http://localhost:4000/",
   url: process.env.REACT_APP_API_URL!,
   exchanges: [
-    cacheExchange, // Caching layer
+    // cacheExchange, // Caching layer
     fetchExchange, // Fetching layer
   ],
   fetchOptions: {
